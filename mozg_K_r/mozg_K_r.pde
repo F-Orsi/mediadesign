@@ -7,7 +7,7 @@ float[] cy = new float [nc];
 float[] vy = new float [nc];
 
 void setup() {
-    size(800, 600, P3D); // P3D könnyebben kezeli a grafikus dolgokat
+    size(800, 600); // P3D könnyebben kezeli a grafikus dolgokat
     surface.setResizable(true);
     for (int i = 0; i < nc; i = i + 1 )
     {
